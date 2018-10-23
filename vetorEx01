@@ -1,0 +1,15 @@
+algoritmo_vetorEx01{
+
+    numero:vetor[1..4]de inteiro;
+    inteiro indice
+    para(indice = 1 ate 4 passo1)faca
+        escreva("Número para posição [",indice,"] :")
+        leia(numero[indice]);
+        escreva("------------");
+        escreva(numero[indice]);
+    fimpara
+
+    escreva("Valor posição[2]= ",numero[2]);
+
+
+}fimalgoritmo

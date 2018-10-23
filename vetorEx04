@@ -1,0 +1,19 @@
+algoritmo_Ex04{
+
+    venda:vetor[1..40]de real;
+    inteiro indice;
+    real soma = 0, desconto;
+
+    para(indice = 1 ate 40 passo1)faca
+        escreva("Informe valor venda [",indice,"] :");
+        leia(venda[indice]);
+        soma = soma + venda[indice];
+    fimpara
+
+    mediaVendas = soma/indice;
+    desconto = mediaVendas*0,95;
+    escreva("A soma total das vendas  é : ",soma);
+    escreva("A media das vendas é: ",mediaVendas)
+    escreva("Media vendas com desconto 5% é : ",desconto 0);
+
+}fimalgoritmo

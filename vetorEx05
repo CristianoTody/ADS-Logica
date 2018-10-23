@@ -1,0 +1,15 @@
+algoritmo_vetorEx05{
+
+    soma1:vetor[1..4]de inteiro;
+    soma2:vetor[1..4]de inteiro;
+    soma3:vetor[1..4]de inteiro;
+    inteiro i;
+
+    escreva("A soma dos vetores 1 e 2 : ");
+    para(i = 1 ate 4 passo1)faca
+        soma3[i] = soma1[i]+soma2[i];
+        escreva(soma3[i]);
+    fimpara
+
+            
+}fimalgoritmo

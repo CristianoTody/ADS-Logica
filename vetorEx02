@@ -1,0 +1,17 @@
+algoritmo_vetorEx02{
+    numero:vetor[1..10]de inteiro;
+    inteiro indice, soma = 0;
+    real mediaIdade = 0;
+
+    para(indice = 1 ate 10 passo1)faca
+        escreva("Informe a idade para posição [",indice,"] :");
+        leia(numero[indice]);
+        soma = soma + numero[indice];
+    fimpara
+
+    mediaIdade = soma/indice;
+
+    escreva("A idade media do grupo: ",mediaIdade);
+    escreva("A primeira idade informada foi: ",numero[1]);    
+
+}fimalgoritmo
