@@ -1,0 +1,21 @@
+algoritmo_HelloWorld{
+
+  escreva("Hello World!");
+  
+}fimalgoritmo
+
+---------------------------------------
+import java.util.Scanner;
+
+public class HelloWorld {
+  public static void main(String[]args){
+    Scanner entrada = new Scanner(System.in);
+  String nome;
+  
+  System.out.println("Seja bem vindo, qual seu nome: ");
+  nome = entrada.next();
+  System.out.println(nome+" obrigado por fazer parte deste teste!");
+  System.out.println("Hello World");
+        
+  }
+}
